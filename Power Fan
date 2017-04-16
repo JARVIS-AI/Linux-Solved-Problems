@@ -1,0 +1,13 @@
+Sometimes after installing an arch linux or other linux the fan going to be speed and make a lot of noise.
+
+Most of time this is because of wrong or not complete configuration of boot files.
+For example the GRUB boot loader or systemd must be configure to be in correct way and your laptop or pc computer work and turning on.
+
+If your hard is GPT and have UEFI installed GRUB , you should be have efi boot partition and have some files in it.
+
+So if you installed your linux and after turning on and have full working system , suddenly the fan going to be crazy , then in this situation we have some guests:
+        If you have intel CPU , then the function keyboard for screen brightness have to be working but fan isn't correct.
+        So you must do this :
+                sudo nano /etc/grub/grub.cfg
+                Add this :
+                

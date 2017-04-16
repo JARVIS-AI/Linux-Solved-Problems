@@ -10,4 +10,8 @@ So if you installed your linux and after turning on and have full working system
         So you must do this :
                 sudo nano /etc/grub/grub.cfg
                 Add this :
-                
+                title Arch Linux
+                linux /vmlinuz-linux
+                initrd /intel-ucode.img
+                initrd /initramfs-linux.img
+                options root=PARTUUID=write_down_root_UUID_here rw i915.preliminary_hw_support=1                                                                        intel_idle.max_cstate=1 i915.enable_execlists=0 acpi_osi= acpi_backlight=native quiet

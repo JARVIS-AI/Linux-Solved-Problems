@@ -18,8 +18,8 @@ There is command in Linux OS :
 $ colormgr --help
 ```
 
-<div style="align:center;">
-  <img src="img/1.png" style="box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
+<div style="align:center;box-shadow: -15px 30px 28px rgba(0,0,0,0.25), 15px 19px 19px rgba(0,0,0,0.22);">
+  <img src="img/1.png" style="box-shadow: -15px 30px 28px rgba(0,0,0,0.25), 15px 19px 19px rgba(0,0,0,0.22);">
 </div>
 
 So when your night light working means your colormgr found your screen monitor and manage colors.
@@ -30,8 +30,8 @@ This is the commnad when your device working good.
 $ colormgr get-device
 ```
 
-<div style="align:center;">
-  <img src="img/2.png" style="box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
+<div style="align:center;box-shadow: -15px 30px 28px rgba(0,0,0,0.25), 15px 19px 19px rgba(0,0,0,0.22);">
+  <img src="img/2.png" style="box-shadow: -15px 30px 28px rgba(0,0,0,0.25), 15px 19px 19px rgba(0,0,0,0.22);">
 </div>
 
 As you see the colormgr connect with `xrandr` the **xorg** tools that working on monitor and manage the color of LCD.

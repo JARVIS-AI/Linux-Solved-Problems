@@ -1,3 +1,5 @@
+## Touchpad Asus models
+
 Error = Touchpad isn't working !!
 
   1-i can't tap to click
@@ -8,11 +10,15 @@ Error = Touchpad isn't working !!
 The TouchPad is Elan
   I installed "elantech-asustouchpad-dkms" from aur, no luck.
 
-  the ouput of
+The ouput of
 
-  $ xinput list-props "Elan Touchpad"
+```sh
+$ xinput list-props "Elan Touchpad"
+```
 
-  is
+is
+
+```sh
 {
 Device 'Elan Touchpad':
 	Device Enabled (139):	1
@@ -47,15 +53,23 @@ Device 'Elan Touchpad':
 	Synaptics Edge Scrolling (520):	1, 1, 0
 	Synaptics Off (521):	1
 }
+```
 
 ======================================
 
-just do
+Just do
 
-
+```sh
 $ sudo modprobe psmouse
-
+```
 
 and reboot.
 
 Enjoy your touchpad :)
+
+
+## Thanks
+
+Thank you again for follow one of our other solving tut.
+If our solving is useful for you come and give me a star, its like a cup of coffee. :)
+Thanks.

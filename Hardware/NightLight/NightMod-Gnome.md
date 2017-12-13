@@ -18,7 +18,7 @@ There is command in Linux OS :
 $ colormgr --help
 ```
 
-<div style="align:center;box-shadow: -15px 30px 28px rgba(0,0,0,0.25), 15px 19px 19px rgba(0,0,0,0.22);">
+<div style="align:center;">
   <img src="img/1.png" style="box-shadow: -15px 30px 28px rgba(0,0,0,0.25), 15px 19px 19px rgba(0,0,0,0.22);">
 </div>
 
@@ -30,7 +30,7 @@ This is the commnad when your device working good.
 $ colormgr get-device
 ```
 
-<div style="align:center;box-shadow: -15px 30px 28px rgba(0,0,0,0.25), 15px 19px 19px rgba(0,0,0,0.22);">
+<div style="align:center;">
   <img src="img/2.png" style="box-shadow: -15px 30px 28px rgba(0,0,0,0.25), 15px 19px 19px rgba(0,0,0,0.22);">
 </div>
 
@@ -49,8 +49,25 @@ We have some solutions for this problem :
 
 So in 1 to 3 is clearly light that you must install again these packages and see if night light going to work again.
 
-But in 4th so follow :
+If none of thoese work you can try this.
 
 At first check that 2 commands if not work `colormgr` then open a terminal and commnad this :
 
 ```sh
+$ ls  /usr/share/polkit-1/actions
+```
+These is alot of files in there, We need the file named **`org.freedesktop.color-manager.create-device.policy`** and with this command move the file.
+
+```sh
+$ sudo mv /usr/share/polkit-1/actions/org.freedesktop.color-manager.create-device.policy ~/Desktop
+```
+
+So after this you should log out and log in or reboot , Tada your night light work again.
+
+If you have any question you can contact me.
+
+## Thanks
+
+Thank you again for follow one of our other solving tut.
+If our solving is useful for you come and give me a star, its like a cup of coffee. :)
+Thanks.

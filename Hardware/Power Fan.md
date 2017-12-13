@@ -1,3 +1,5 @@
+## Fan sound louad and work like a jet
+
 Sometimes after installing an arch linux or other linux the fan going to be speed and make a lot of noise.
 
 Most of time this is because of wrong or not complete configuration of boot files.
@@ -15,3 +17,9 @@ So if you installed your linux and after turning on and have full working system
                 initrd /intel-ucode.img
                 initrd /initramfs-linux.img
                 options root=PARTUUID=write_down_root_UUID_here rw i915.preliminary_hw_support=1                                                                        intel_idle.max_cstate=1 i915.enable_execlists=0 acpi_osi= acpi_backlight=native quiet
+
+## Thanks
+
+Thank you again for follow one of our other solving tut.
+If our solving is useful for you come and give me a star, its like a cup of coffee. :)
+Thanks.

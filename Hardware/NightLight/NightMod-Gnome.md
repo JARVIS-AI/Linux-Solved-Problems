@@ -17,7 +17,7 @@ There is command in Linux OS :
 ```sh
 $ colormgr --help
 ```
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
 <div style="align:center;">
   <div class="img">
   	<img src="img/1.png">

@@ -6,21 +6,20 @@ Written by Russians and use super secure **encryption** **AES-256** for private 
 
 This app has got a **handler scheme** in browser named **``tg``** handler that when you visit a site like **www.telegram.me/exampleID** this handler must turn on and ask you want to open telegram app and goto in **``exampleID``**.
 
-So mostly Firefox has got problem because of its technology using, Firefox use boolean ``auto:config`` but Google Chrome or Chromium use ``xdg-open`` or ``xdg-scheme``. 
+So mostly Firefox has got problem because of its technology using, Firefox use boolean ``auto:config`` but Google Chrome or Chromium use ``xdg-open`` or ``xdg-scheme``.
 
 For Firefox we must set manually ``xdg-scheme`` in our OS, mine is **Arch Linux** my second love in the world, and mostly this problem appear in Linux systems not Windows or macOS.
 
 ## What is the problem ?
 
 The problem is simple, When you open that kind of refers site to resolve ``exampleID`` and open telegram, then **``tg``** handler doesn't work and nothing appear or asking you for opening Telegram but some thing like this appear :
+
 <div align="center">
-![tg](/home/jarvis-ai/Desktop/tg.png)
+![tg](img/tg.png)
 </div>
 
 
-
 This picture saying that browser can not resolve the domain and protocol, so what should we do then ??
-
 
 
 ## Getting Start
@@ -42,6 +41,6 @@ Before you start for fixing this problem, check the requirements first :
 
  update-mime-database ~/.local/share/mime
 
-$ >  .config  nano mimeapps.list 
+$ >  .config  nano mimeapps.list
 
 x-scheme-handler/tg=firefox.desktop;

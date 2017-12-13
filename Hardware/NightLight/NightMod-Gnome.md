@@ -17,47 +17,40 @@ There is command in Linux OS :
 ```sh
 $ colormgr --help
 ```
-<style>
-  .img img {
-    width: auto;
-    position: relative;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-}
 
-..img:before,
-.img:after {
-    z-index: -1;
-    position: absolute;
-    content: "";
-    bottom: 25px;
-    left: 10px;
-    width: 50%;
-    top: 80%;
-    max-width: 300px;
-    background: #777;
-    -webkit-box-shadow: 0 35px 20px #777;
-    -moz-box-shadow: 0 35px 20px #777;
-    box-shadow: 0 35px 20px #777;
-    -webkit-transform: rotate(-8deg);
-    -moz-transform: rotate(-8deg);
-    -o-transform: rotate(-8deg);
-    -ms-transform: rotate(-8deg);
-    transform: rotate(-8deg);
-}
-
-.img:after {
-    -webkit-transform: rotate(8deg);
-    -moz-transform: rotate(8deg);
-    -o-transform: rotate(8deg);
-    -ms-transform: rotate(8deg);
-    transform: rotate(8deg);
-    right: 10px;
-    left: auto;
-}
-</style>
-
-<div class="img" style="align:center;">
-  	<img src="img/1.png">
+<div style="align:center;">
+  <img src="img/1.png" style="box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
 </div>
 
+So when your night light working means your colormgr found your screen monitor and manage colors.
+
+This is the commnad when your device working good.
+
+```sh
+$ colormgr get-device
+```
+
+<div style="align:center;">
+  <img src="img/2.png" style="box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
+</div>
+
+As you see the colormgr connect with `xrandr` the **xorg** tools that working on monitor and manage the color of LCD.
+
+But when your deivece stoped night light , that command shows nothing after enter.
+
+## Get start
+
+We have some solutions for this problem :
+
+1. Reinstall colormgr + reboot(log out)
+2. Reinstall colord + reboot(log out)
+3. Reinstall gnome-color-manager + reboot(log out)
+4. My solution
+
+So in 1 to 3 is clearly light that you must install again these packages and see if night light going to work again.
+
+But in 4th so follow :
+
+At first check that 2 commands if not work `colormgr` then open a terminal and commnad this :
+
+```sh

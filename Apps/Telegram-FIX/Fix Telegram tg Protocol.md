@@ -14,9 +14,7 @@ For Firefox we must set manually ``xdg-scheme`` in our OS, mine is **Arch Linux*
 
 The problem is simple, When you open that kind of refers site to resolve ``exampleID`` and open telegram, then **``tg``** handler doesn't work and nothing appear or asking you for opening Telegram but some thing like this appear :
 
-<div style="align:center;">
   ![tg](img/tg.png)
-</div>
 
 This picture saying that browser can not resolve the domain and protocol, so what should we do then ??
 

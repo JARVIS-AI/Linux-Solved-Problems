@@ -4,7 +4,7 @@ LAMP is **L**inux , **A**pache , **M**ySQL and **P**HP these are packages and pr
 
 As maybe some of you know installing these packages is not hard that you think but the configuration part need better experience in setup Apache config that is **httpd.conf** and **PHP.ini** for PHP and **my.cnf** for mysql and others.
 
-#Lets start
+# Lets start
 
 You can install all these package with a program named XAMMP in Linux LAMMP.
 
@@ -105,6 +105,7 @@ $ sudo micro /opt/lampp/lampp
 ```
 
 Search for `testport 80` and `testport 443` and change them to new config.
+
 Save and Reset Apache or whole lammp.
 
 This is for LAMP Stack

@@ -4,7 +4,7 @@ LAMP is **L**inux , **E**ngin X (nginx) , **M**ySQL and **P**HP these are packag
 
 As maybe some of you know installing these packages is not hard that you think but the configuration part need better experience in setup NGINX config that is **nginx.conf** and **PHP.ini** for PHP and **my.cnf** for mysql and others.
 
-#Lets start
+# Lets start
 
 Download the nginx from package manager for your repo.
 
@@ -38,7 +38,7 @@ Second if you see such a things like this :
 sudo systemctl status nginx
 ● nginx.service - A high performance web server and a reverse proxy server
    Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
-   Active: failed (Result: exit-code) since Sun 2017-12-31 17:55:51 +0330; 13s ago
+   Active: **failed** (Result: exit-code) since Sun 2017-12-31 17:55:51 +0330; 13s ago
   Process: 7878 ExecStart=/usr/bin/nginx -g pid /run/nginx.pid; error_log stderr; (code=exited, status=1/FAILURE)
  Main PID: 17108 (code=exited, status=0/SUCCESS)
 
@@ -84,7 +84,7 @@ $ sudo systemctl status nginx
 
 ● nginx.service - A high performance web server and a reverse proxy server
    Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
-   Active: active (running) since Sun 2017-12-31 17:58:34 +0330; 1s ago
+   Active: **active** (running) since Sun 2017-12-31 17:58:34 +0330; 1s ago
   Process: 10098 ExecStart=/usr/bin/nginx -g pid /run/nginx.pid; error_log stderr; (code=exited, status=0/SUCCESS)
  Main PID: 10099 (nginx)
     Tasks: 2 (limit: 4915)
@@ -107,6 +107,7 @@ $ sudo micro /opt/lampp/lampp
 ```
 
 Search for `testport 80` and `testport 443` and change them to new config.
+
 Save and Reset Apache or whole lammp.
 
 This is for LAMP Stack

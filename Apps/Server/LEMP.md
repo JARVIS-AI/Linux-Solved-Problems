@@ -97,9 +97,12 @@ Dec 31 17:58:34 JARVIS-GEEK nginx[10098]: 2017/12/31 17:58:34 [warn] 10098#10098
 Dec 31 17:58:34 JARVIS-GEEK systemd[1]: Started A high performance web server and a reverse proxy server.
 ```
 
-So note 1 : Don't remember before fixing stop all services/
+So note 1 : Don't remember before fixing stop all services
+
 Note 2 : Be careful to in editing config files , just make sure you have backup of all files already
+
 Note 3 : Just save the changes after edit with `CTRL-O + Enter` and Exit `CTRL-X + Enter of Without Enter` In NANO Editor.
+
 Note 4 : If you want to lammp or means xammp check the IF port for new changes do these :
 
 ```sh

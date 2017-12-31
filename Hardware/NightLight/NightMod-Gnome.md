@@ -27,7 +27,7 @@ So when your night light working means your colormgr found your screen monitor a
 This is the commnad when your device working good.
 
 ```sh
-$ colormgr get-device
+$ colormgr get-devices
 ```
 
 <div style="align:center;">

@@ -114,5 +114,7 @@ For LEMP Stack check the repo.
 ## Info
 
 Thanks for reading 
+
 Author : Jarvis Mercer
+
 License : Creative Commons v.4
